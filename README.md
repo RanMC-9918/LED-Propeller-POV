@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a high-speed persistence-of-vision (POV) display that creates images by spinning LED strips on rotating propeller blades. As the propellers rotate at approximately 3,000 RPM, the LEDs are synchronized with the fan's position using a hall effect sensor, allowing the human eye to perceive a stable, high-resolution image floating in the air. The system is powered by an ESP32 microcontroller, which was selected for its processing power and high-bandwidth Wi-Fi capabilities. 
+This project is a high-speed persistence-of-vision (POV) display that creates images by spinning LED strips on rotating propeller blades. The propellers should be able to rotate at 3,000 RPM and the LEDs are synchronized with the fan's position using a hall effect sensor to create an image in the air. The ESP32 microcontroller should have the bandwidth needed to live stream video to the display in real time.
 
 ## Criteria
 
