@@ -8,6 +8,8 @@ This project is a high-speed persistence-of-vision (POV) display that creates im
 
 ## PCB
 
+The PCB has components needed to control the LED and motor and an ESP32 to handle communication and LED control. The 12V from the battery is fed into the motor via a motor controller (H-Bridge), then the 12V is stepped down to 5V to power the LEDs and ESP32. The signal coming out of the ESP32 is 3.3V but the LED strip needs 5V so the Bus Buffer converts the signal to 5V for the LED. All pcb traces handling the motors 12V 5A peak are thickened to reduce resistance and heat.
+
 <img width="904" height="789" alt="PCB in Kicad" src="https://github.com/user-attachments/assets/c9e0404a-411e-43b2-bb01-64b449cb9d94" />
 
 
