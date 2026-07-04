@@ -4,6 +4,14 @@
 
 This project is a high-speed persistence-of-vision (POV) display that creates images by spinning LED strips on rotating propeller blades. The propellers should be able to rotate at 3,000 RPM and the LEDs are synchronized with the fan's position using a hall effect sensor to create an image in the air. The ESP32 microcontroller should have the bandwidth needed to live stream video to the display in real time.
 
+<img width="1067" height="712" alt="Fan in alternate position" src="https://github.com/user-attachments/assets/a56285bc-6d20-4679-921f-4b90d96c8785" />
+
+## PCB
+
+<img width="904" height="789" alt="PCB in Kicad" src="https://github.com/user-attachments/assets/c9e0404a-411e-43b2-bb01-64b449cb9d94" />
+
+
+
 ## Criteria
 
 - Must display readable text + graphic
